@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/beyondfitt
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://${DB_URL}/collinskube
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     initialization-mode: always
 
   jpa:
