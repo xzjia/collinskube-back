@@ -20,6 +20,6 @@ public class BeyondFitt {
 
     private String message;
 
-    private LocalDateTime createdAt;
+    private LocalDateTime timestamp;
 
 }
