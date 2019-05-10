@@ -1,6 +1,4 @@
-DROP TABLE IF EXISTS beyond_fitt;
-
-CREATE TABLE collinskube (
+CREATE TABLE IF NOT EXISTS collinskube (
   id SERIAL,
   username VARCHAR(255),
   message VARCHAR(1024),
